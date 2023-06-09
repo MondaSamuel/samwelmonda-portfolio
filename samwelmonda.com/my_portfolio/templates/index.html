@@ -1,0 +1,611 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  
+    <title>{% block title %}MyResume{% endblock %}</title>
+  {% load bootstrap5 %}
+  {% bootstrap_css %}
+  {% bootstrap_javascript %}
+  
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/fav.png" rel="icon">
+  <link href="assets/img/fav.png" rel="fav.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+ =<!-- Vendor CSS Files -->
+ <link rel="stylesheet" href ="{% static '/vendor/aos/aos.css' %}"> 
+<link rel="stylesheet" href ="{% static '/vendor/bootstrap/css/bootstrap.min.css' %}">
+<link rel="stylesheet" href ="{% static '/vendor/bootstrap-icons/bootstrap-icons.css' %}">
+<link rel="stylesheet" href ="{% static '/vendor/boxicons/css/boxicons.min.css' %}">
+<link rel="stylesheet" href ="{% static '/vendor/glightbox/css/glightbox.min.css' %}">
+<link rel="stylesheet" href ="{% static '/vendor/swiper/swiper-bundle.min.css' %}">
+
+
+
+
+
+  
+  
+  
+
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.8.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <br>
+  
+  <ul class="resume" id="test">
+    <li>
+      <a class="nav-link js-scroll-trigger mx-2 md-l-space plat-nomor data-bs-toggle="tooltip" title="Click to download resume"" href="assets/img/robertkebiro.pdf" download>RESUME</a>
+    </li>
+  </ul>
+  
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Samwel Monda</h1>
+      <p>I'm a <span class="typed" data-typed-items="DevOps Engineer, Network Architech, Freelancer,"></span></p>
+      <div class="social-links">
+        <a href="https://twitter.com/" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/samwel monda/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/sammy_monda/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/samwel monda/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/MondaSamuel" class="Github"><i class="bx bxl-github"></i></a>
+      </div>
+
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I am a 21-year-old enthusiastic, motivated and responsible undergraduate student currently taking Bachelors of Information Technology at KCA University, Kenya. I am a 3rd year student, 2nd semester.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profileimg.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>DevOps Engineer &amp; Network Architech</h3>
+            <p class="fst-italic">
+              Experienced DevOps engineer with networking and programming skills.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>21 january 2002</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>#####</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+254 745232052</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Nairobi, Kenya</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>samwelmonda48@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              DevOps Engineer with 2 years of IT expertise resourcefully planning and deploying necessary applications to meet organizational goals.
+              Expert at generating quality code to enhance critical software automation, accuracy, agility, and secure based on the latest industry-standard concepts. 
+              Established history providing pivotal consultation with Dev, QA, Security, and IT operations staff to influence software development effectiveness. 
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <div class="justify-content-center">
+          <h2>Certifications</h2>
+          <ul class="myUL">
+            <li>Certificate in Computer Packages</li>
+            <li>CCNA Certified</li>
+            <li>Scientific Computing with Python</li>
+            <li>AWS Machine Learning Foundations</li>
+            <li>Software Engineering (Backend)</li>
+          </ul>
+                          
+          </div>
+        </div>
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>TECHNOLOGIES</h2>
+        </div>
+
+        <div class="row pt-5 text-center">
+          <div class="col-lg-4">
+            <div class="languages">
+              <h4 class="text-3 tech">Programming Languages</h4>
+              <hr>
+              <ul class="text-3 pl-2">
+                <li>JavaScript</li>
+                <li>Python</li>
+                
+            
+      
+              
+        
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="frameworks">
+              <h4 class="text-3 tech">Front End</h4>
+              <hr>
+              <ul class="text-3 pl-2">
+                <li>Django</li>
+                <li>Django REST FRAMEWORK</li>
+                <li>Flask</li>
+                <li>Vue.js</li>
+                <li>JQuery</li>
+                <li>HTML / CSS</li>
+                <li>JSON</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="tools">
+              <h4 class="text-3 tech">Back End</h4>
+              <hr>
+              <ul class="text-3 pl-2">
+                <li>Node.js</li>
+                <li>Flask</li>
+                <li>django</li>
+                <li>NoSQL</li>
+                <li>MySQL</li>
+                <li>API iintergration</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="tools">
+              <h4 class="text-3 tech">Testing & Deployment</h4>
+              <hr>
+              <ul class="text-3 pl-2">
+                <li>Azure</li>
+                <li>Jenkins</li>
+                <li>Puppet</li>
+                <li>AWS EC2 & S3</li>
+                <li>Docker</li>
+                <li>NGINX</li>
+                <li>Kubernetes</li>
+                <li>Firebase</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="tools">
+              <h4 class="text-3 tech">Developer Tools</h4>
+              <hr>
+              <ul class="text-3 pl-2">
+                <li>Git</li>
+                <li>Linux</li>
+                <li>Vim</li>
+                <li>npm</li>
+                <li>Webpack</li>
+                <li>Babel</li>
+                <li>TDD</li>
+                <li>Agile Methodology</li>
+                <li>Scrum</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="tools">
+              <h4 class="text-3 tech">Soft Skills</h4>
+              <hr>
+              <ul class="text-3 pl-2">
+                <li>Collaboration</li>
+                <li>Problem Solving</li>
+                <li>Communication</li>
+                <li>Critical Thinking</li>
+                <li>Creative Thinking</li>
+                <li>Leadership</li>
+                <li>Decision Making</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>samwel monda</h4>
+              <p><em>Innovative and deadline-driven DevOps Engineer with 2+ years of experience designing and developing user-centered solutions from initial concept to final, polished deliverable.</em></p>
+              <ul>
+                <li>Westlands, Nairobi, Kenya</li>
+                <li>(+254) 745232052</li>
+                <li>samwelmonda45@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Information Technology</h4>
+              <h5>2020 - 2024</h5>
+              <p><em>Kenya College of Accountancy, Nairobi, Kenya </em></p>
+              <p>currently taking my undergraduate degree.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Diploma in Web Design &amp Development</h4>
+              <h5>2021 - 2022</h5>
+              <p><em>Emobilis Institute of Technology, Nairobi, Kenya</em></p>
+              <p>Did web Design using HTML5, CSS, PHP and Bootstrap 5.
+                 Upon completion we did a master project of a full responsible website using the taught frameworks</p>
+            </div>
+            <div class="resume-item">
+              <h4>Certificate in Software Engineering</h4>
+              <h5>2022 - Date</h5>
+              <p><em>Holberton Bootcamp, Nairobi, Kenya</em></p>
+              <p>Did languages including , Python, Javascript
+                 Certified</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Student</h4>
+              <h5>Present</h5>
+              <p><em>KCA University, Nairobi, Kenya </em></p>
+              <!--<ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              </ul> 
+            </div> -->
+            <div class="resume-item">
+              <h4>Graphic design specialist</h4>
+              <h5>2022, Remote-Active</h5>
+              <p><em>254 pixels marketing, Adelaide, South Australia</em></p>
+              <ul>
+                <li>Develop numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Manages up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 5+ design presentations and proposals a month for clients and account managers</li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Some cool projects to showcase. </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/portfolio-1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>System</p>
+                <div class="portfolio-links">
+                  <a href="https://robertmongare.live/assets/img/portfolio/portfolio-1.jpg&#32;data-gallery="portfolioGallery" class="portfolio-lightbox" title="AirBnB Clone"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/portfolio-details-30.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="{% static '/img/portfolio/portfolio-3.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/portfolio-3.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="https://robertmongare.live/assets/img/portfolio/portfolio-30.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/CB01.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/CB01.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{static 'img/portfolio/mala01.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/mala01.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'main/img/portfolio/portfolio-6.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{ % static 'img/portfolio/portfolio-7.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/portfolio-8.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/CB01.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/CB01.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section --> 
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Westlands, Nairobi, Kenya</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>samwelmonda48@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+254 745232052</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="https://robertmongare.live/forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Samwel Monda</h3>
+      <div class="social-links">
+        <a href="https://twitter.com/mejjagoon" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/2.2.2.7.robe/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/_baby.shiesty_/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/robert-mong-are-553162210/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/mongarerobert3" class="Github"><i class="bx bxl-github"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>samwelmonda</span></strong>. All Rights Reserved 2023
+      </div>
+      <div class="credits">
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="index.html#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+<script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+<script src="{% static 'vendor/aos/aos.js' %}"></script>
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+<script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+<script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'vendor/typed.js/typed.min.js' %}"></script>
+<script src="{% static 'vendor/waypoints/noframework.waypoints.js' %}"></script>
+<script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+
+
+ <script src="{% static 'js/main.js' %}"></script>
+
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="{% static 'js/script.js' %}"></script>
+
+
+</body>
+
+</html>
